@@ -29,6 +29,8 @@ Data from four European economies, as used in the paper, are made available unde
 To run the experiments, you will need to prior install the following package dependencies: [`forecast`](https://cran.r-project.org/web/packages/forecast/index.html)
 [`imputeTS`](https://cran.r-project.org/web/packages/imputeTS/index.html), [`panelvar`](https://cran.r-project.org/web/packages/panelvar/panelvar.pdf), [`lubridate`](https://cran.r-project.org/web/packages/lubridate/index.html), and [`zoo`](https://cran.r-project.org/web/packages/zoo/index.html).
 
+Once the packages installed, you can run the `bash` scripts in the [**_bin/_**](bin) folder.
+
 **<a name="References"></a>References** 
 
 * G.Kapetanios, M.G.Marcellino, F.Papailias, and G.L.Mazzi (2020): [**New methods for timely estimates**](https://ec.europa.eu/eurostat/web/products-statistical-working-papers/-/KS-TC-20-005), _Eurostat_ Statistical Working Paper KS-TC-20-005-EN, doi: [10.2785/600130](http://dx.doi.org/10.2785/600130).
