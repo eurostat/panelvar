@@ -31,11 +31,11 @@ rrrnams <- c("DE-Q-itarg11-h1.Rdata", "FR-Q-itarg11-h1.Rdata",
            "IT-Q-itarg11-h1.Rdata", "UK-Q-itarg11-h1.Rdata")
 fffnams <- c("Desc-DE.csv", "Desc-FR.csv", "Desc-IT.csv", "Desc-UK.csv")
 
-setwd("../../data")
+setwd("../data")
 
 for(iu in 1:NROW(rrrnams))
 {
-  setwd("../output/")
+  setwd("./output/")
   load(rrrnams[iu])
   
   xq <- apply(XQ, 2, na.interpolation, option="linear")
@@ -58,10 +58,3 @@ for(iu in 1:NROW(rrrnams))
   setwd("../tables/")
   write.csv(S, fffnams[iu])
 }
-
-
-
-
-
-
-
