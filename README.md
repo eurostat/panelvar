@@ -20,14 +20,15 @@ The material provided herein will enable you to reproduce the experiments presen
 
 **Description**
 
-The source code is provided *as is* in the [**_src/_**](src) folder so as to explore out-of-sample forecasting performance of mixed-frequency panel vector autoregression (pVAR) models for four key macroeconomic variables, with the goal of providing evidence on the usefulness and reliability of these models for use by official statistical agencies.
+The source code is provided *as is* in the [**_model/_**](model) folder so as to explore out-of-sample forecasting performance of mixed-frequency panel vector autoregression (pVAR) models for four key macroeconomic variables, with the goal of providing evidence on the usefulness and reliability of these models for use by official statistical agencies. 
 
-Data from four European economies, as used in the paper, are made available under the [**_data/_**](data) folder. Output data will be stored into an **output/** folder. 
+Data from four European economies, as used in the paper, are made available under the [**_data/input_**](data) folder. Output data will be stored into an **data/output/** folder that needs to be created.  
+
+Additionally, the source code in [**_tables/_**](tables) enable to reproduce some figures of the working paper that are stored in the [**_data/tables_**](tables) folder
 
 **Usage**
 
-To run the experiments, you will need to prior install the following package dependencies: [`forecast`](https://cran.r-project.org/web/packages/forecast/index.html)
-[`imputeTS`](https://cran.r-project.org/web/packages/imputeTS/index.html), [`panelvar`](https://cran.r-project.org/web/packages/panelvar/panelvar.pdf), [`lubridate`](https://cran.r-project.org/web/packages/lubridate/index.html), and [`zoo`](https://cran.r-project.org/web/packages/zoo/index.html).
+To run the experiments, you will need to prior install the following package dependencies: [`forecast`](https://cran.r-project.org/web/packages/forecast/index.html), [`imputeTS`](https://cran.r-project.org/web/packages/imputeTS/index.html), [`panelvar`](https://cran.r-project.org/web/packages/panelvar/panelvar.pdf), [`lubridate`](https://cran.r-project.org/web/packages/lubridate/index.html), [`vars`](https://cran.r-project.org/web/packages/vars/index.html), [`moments`](https://cran.r-project.org/web/packages/moments/index.html) and [`zoo`](https://cran.r-project.org/web/packages/zoo/index.html).
 
 Once the packages installed, you can run the `bash` scripts in the [**_bin/_**](bin) folder.
 
