@@ -24,6 +24,11 @@ The source code is provided *as is* in the [**_src/_**](src) folder so as to exp
 
 Data from four European economies, as used in the paper, are made available under the [**_data/_**](data) folder. Output data will be stored into an **output/** folder. 
 
+**Run**
+
+To run the experiments, you will need to prior install the following package dependencies: [`forecast`](https://cran.r-project.org/web/packages/forecast/index.html)
+[`imputeTS`](https://cran.r-project.org/web/packages/imputeTS/index.html), [`panelvar`](https://cran.r-project.org/web/packages/panelvar/panelvar.pdf), [`lubridate`](https://cran.r-project.org/web/packages/lubridate/index.html), and [`zoo`](https://cran.r-project.org/web/packages/zoo/index.html).
+
 **<a name="References"></a>References** 
 
 * G.Kapetanios, M.G.Marcellino, F.Papailias, and G.L.Mazzi (2020): [**New methods for timely estimates**](https://ec.europa.eu/eurostat/web/products-statistical-working-papers/-/KS-TC-20-005), _Eurostat_ Statistical Working Paper KS-TC-20-005-EN, doi: [10.2785/600130](http://dx.doi.org/10.2785/600130).
