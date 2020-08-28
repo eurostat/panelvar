@@ -1,7 +1,8 @@
 pvarquant
 =========
 
-Experimental tools for timely estimates.
+Experimental tools on pVAR models for timely estimates.
+---
 
 **About**
 
