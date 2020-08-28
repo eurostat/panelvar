@@ -43,7 +43,7 @@ print.stats <- function(h1n, h1s, h1nsav, h, ibench)
   rownames(stt) <- mnamsall
   colnames(stt) <- c("MAE", "RMSFE", "SSR", "DM1", "DM2")
   
-  # setwd("../../data/tables/")  
+  # setwd("../data/tables/")  
   # write.csv(stt[1:37,], h1nsav)
   return(stt)
 }
@@ -128,10 +128,12 @@ library("imputeTS"); library("panelvar"); library("moments")
 library("R.utils"); library("vars")
 
 iibench <- "AR.1."
-wdd <- "../../data/output/"
-wds <- "../../data/tables/"
 
-setwd(wdd)
+setwd("../data/output")
+
+wdd <- "../output/" # relative path
+wds <- "../tables/"
+
 c1 <- get.ord("DE-Q-itarg11-h1.Rdata")
 c2 <- get.ord("FR-Q-itarg11-h1.Rdata")
 c3 <- get.ord("IT-Q-itarg11-h1.Rdata")
