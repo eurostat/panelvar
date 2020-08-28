@@ -24,7 +24,7 @@ The source code is provided *as is* in the [**_src/_**](src) folder so as to exp
 
 Data from four European economies, as used in the paper, are made available under the [**_data/_**](data) folder. Output data will be stored into an **output/** folder. 
 
-**Run**
+**Usage**
 
 To run the experiments, you will need to prior install the following package dependencies: [`forecast`](https://cran.r-project.org/web/packages/forecast/index.html)
 [`imputeTS`](https://cran.r-project.org/web/packages/imputeTS/index.html), [`panelvar`](https://cran.r-project.org/web/packages/panelvar/panelvar.pdf), [`lubridate`](https://cran.r-project.org/web/packages/lubridate/index.html), and [`zoo`](https://cran.r-project.org/web/packages/zoo/index.html).
@@ -33,17 +33,16 @@ Once the packages installed, you can run the `bash` scripts in the [**_bin/_**](
 
 **<a name="References"></a>References** 
 
-* G.Kapetanios, M.G.Marcellino, F.Papailias, and G.L.Mazzi (2020): [**New methods for timely estimates**](https://ec.europa.eu/eurostat/web/products-statistical-working-papers/-/KS-TC-20-005), _Eurostat_ Statistical Working Paper KS-TC-20-005-EN, doi: [10.2785/600130](http://dx.doi.org/10.2785/600130).
+* Kapetanios G., Marcellino M., Papailias F. and Mazzi G.L. (2020): [**New methods for timely estimates**](https://ec.europa.eu/eurostat/web/products-statistical-working-papers/-/KS-TC-20-005), _Eurostat_ Statistical Working Paper KS-TC-20-005-EN, doi: [10.2785/600130](http://dx.doi.org/10.2785/600130).
 
-*  G.L.Mazzi and J.Mitchell (2020): [**New methods for timely estimates: nowcasting euro area GDP growth using quantile regression**](https://ec.europa.eu/eurostat/documents/3888793/10879121/KS-TC-20-004-EN-N.pdf/9916fb06-56e5-bf81-56c7-8b7c8d1f7c2e), _Eurostat_ Statistical Working Paper S-TC-20-004-EN, doi: [10.2785/26603](http://dx.doi.org/10.2785/26603).
+* Mazzi G.L. and Mitchell J. (2020): [**New methods for timely estimates: nowcasting euro area GDP growth using quantile regression**](https://ec.europa.eu/eurostat/documents/3888793/10879121/KS-TC-20-004-EN-N.pdf/9916fb06-56e5-bf81-56c7-8b7c8d1f7c2e), _Eurostat_ Statistical Working Paper S-TC-20-004-EN, doi: [10.2785/26603](http://dx.doi.org/10.2785/26603).
 
-* M.Sigmund and R.Ferstl (2019): **Panel Vector Autoregression in R with the package Panelvar**, _Quarterly Review of Economics and Finance_, doi: [10.2139/ssrn.2896087](http://dx.doi.org/10.2139/ssrn.2896087).
+* M.Sigmund and Ferstl R. (2019): **Panel Vector Autoregression in R with the package Panelvar**, _Quarterly Review of Economics and Finance_, doi: [10.2139/ssrn.2896087](http://dx.doi.org/10.2139/ssrn.2896087).
 
-* G.Kapetanios, M.Marcellino, F.Papailias (2017): 
-**Guidance and recommendations on the use of Big data for macroeconomic nowcasting** in
-[**Handbook on Rapid Estimates**](http://ec.europa.eu/eurostat/documents/3859598/8555708/KS-GQ-17-008-EN-N.pdf), Chapter 17,
+* Mazzi G.L. and Ladiray D., eds. (2017): 
+*[**Handbook on Rapid Estimates**](http://ec.europa.eu/eurostat/documents/3859598/8555708/KS-GQ-17-008-EN-N.pdf), 
 _Publications Office of the European Union_, doi:[10.2785/4887400](http://dx.doi.org/10.2785/4887400).
 
-* S.Dees and J.Gunter (2014): [**Analysing and forecasting price dynamics across Euro area countries and sectors - A panel var approach**](https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1724.pdf), _European Central Bank_ Working Paper QB-AR-14-098-EN, no. 1724.
+* Dees S. and Gunter J. (2014): [**Analysing and forecasting price dynamics across Euro area countries and sectors - A panel var approach**](https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1724.pdf), _European Central Bank_ Working Paper QB-AR-14-098-EN, no. 1724.
 
-* Y.Croissant and G.Millo (2008): [**Panel data econometrics in R: The plm package**](https://www.jstatsoft.org/v27/i02/paper), _Journal of Statistical Software_, 27(2):1-43, doi: [10.18637/jss.v027.i02](http://dx.doi.org/10.18637/jss.v027.i02).
+* Croissant Y. and Millo G. (2008): [**Panel data econometrics in R: The plm package**](https://www.jstatsoft.org/v27/i02/paper), _Journal of Statistical Software_, 27(2):1-43, doi: [10.18637/jss.v027.i02](http://dx.doi.org/10.18637/jss.v027.i02).
