@@ -43,7 +43,7 @@ print.stats <- function(h1n, h1s, h1nsav, h, ibench)
   rownames(stt) <- mnamsall
   colnames(stt) <- c("MAE", "RMSFE", "SSR", "DM1", "DM2")
   
-  # setwd("../../data/tables/")  
+  # setwd("../data/tables/")  
   # write.csv(stt[1:37,], h1nsav)
   return(stt)
 }
@@ -110,8 +110,11 @@ library("imputeTS"); library("panelvar"); library("moments")
 library("R.utils")
 
 iibench <- "AR.1."
-wdd <- "../../data/output/"
-wds <- "../../data/tables/"
+
+setwd("../data/output")
+
+wdd <- "../output/" # relative path
+wds <- "../tables/"
 
 # General settings
 #cr1 <- c(0.05,   0.1,  0.15,  0.20,  0.25)
@@ -121,7 +124,6 @@ cr1 <- c(0.16, 0.05)
 cr2 <- c(0.84, 0.95)
 crn <- c("68%", "90%")
 
-setwd(wdd)
 hcc <- "DE"
 c1 <- get.allCR(hh1n="DE-Q-itarg11-h1.Rdata",
                 hh1s="PVAR-Q-itarg1-h1.Rdata",
