@@ -8,9 +8,9 @@ library("forecast")
 library("imputeTS")
 
 # Define working directories
-wd1 <- "../../src/process" # relative path to current directory: "."
-wd2 <- "../../data/input"
-wd3 <- "../../data/output/"
+wd1 <- dirname(sys.frame(1)$ofile) # absolute path to current directory
+wd2 <- "../data/input" # relative paths from wd1
+wd3 <- "../data/output/"
 
 # User settings
 # for the quarterly file, you can only use GDP
