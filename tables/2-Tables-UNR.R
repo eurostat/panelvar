@@ -53,10 +53,11 @@ library("imputeTS"); library("panelvar"); library("moments")
 library("R.utils")
 
 iibench <- "AR.1."
-wdd <- "../../data/output/"
-wds <- "../../data/tables/"
 
-setwd(wdd)
+setwd("../data/output")
+
+wdd <- "../output/" # relative path
+wds <- "../tables/"
 
 hh <- 1
 hh1n <- c("DE-M-itarg2342-h1-error.csv", "PVAR-M-itarg2342-h1DE-error.csv")
