@@ -9,9 +9,9 @@ library("imputeTS")
 library("panelvar")
 
 # Define working directories
-wd1 <- "src/"
-wd2 <- "data/"
-wd3 <- "output/"
+wd1 <- dirname(sys.frame(1)$ofile) # absolute path to current pvar directory
+wd2 <- "../data/input" # relative paths from wd1
+wd3 <- "../data/output/"
 
 # User settings
 # for the quarterly file, you can only use GDP
