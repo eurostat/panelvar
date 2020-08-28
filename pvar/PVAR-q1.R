@@ -9,9 +9,9 @@ library("imputeTS")
 library("panelvar")
 
 # Define working directories
-wd1 <- "src/"
-wd2 <- "data/"
-wd3 <- "output/"
+wd1 <- "../model" # relative path to model directory
+wd2 <- "../data/input" # relative paths to wd1
+wd3 <- "../data/output/
 
 # User settings
 # for the quarterly file, you can only use GDP
