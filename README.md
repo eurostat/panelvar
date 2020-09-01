@@ -24,9 +24,9 @@ Once the packages installed, you can run the `bash` scripts in the [**_bin/_**](
 
 <table align="center">
     <tr>     <td  rowspan="4" align="center" width="140px"> <a href="https://ec.europa.eu/eurostat/documents/3888793/10879237/KS-TC-20-005-EN-N.pdf"><img src="docs/working_paper_front_cover.png"></img></a></td>
-<td align="left"><i>authors</i></td> <td align="left"> <a href="mailto:fotis.papailias@quantf.com">F.Papailias</a>, 
-	<a href="mailto:kapetaniosgeorge@gmail.com">G.Kapetanios</a>, <a href="mailto:massimiliano.marcellino@unibocconi.it">M.Marcellino</a>, 
-	and <a href="mailto:glmazzi@pt.lu">G.L.Mazzi</a></td> </tr> 
+<td align="left"><i>authors</i></td> <td align="left"> <a href="mailto:fotis.papailias@quantf.com">Papailias F.</a>, 
+	<a href="mailto:kapetaniosgeorge@gmail.com">Kapetanios G.</a>, <a href="mailto:massimiliano.marcellino@unibocconi.it">Marcellino M.</a>, 
+	and <a href="mailto:glmazzi@pt.lu">Mazzi G.L.</a></td> </tr> 
     <tr> <td align="left"><i>version</i></td> <td align="left">1.0</td> </tr> 
     <tr> <td align="left"><i>status</i></td> <td align="left">2020 &ndash; <b>closed</b></td> </tr> 
     <tr> <td align="left"><i>license</i></td> <td align="left"><a href="https://joinup.ec.europa.eu/sites/default/files/eupl1.1.-licence-en_0.pdfEUPL">EUPL</a> <i>(cite the source code or the reference above!)</i></td> </tr> 
