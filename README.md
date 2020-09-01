@@ -1,4 +1,4 @@
-pvarquant
+panelvar
 =========
 
 Experimental tools on pVAR models for timely estimates.
