@@ -38,7 +38,7 @@ Once the packages installed, you can run the `bash` scripts in the [**_bin/_**](
 
 * Mazzi G.L. and Mitchell J. (2020): [**New methods for timely estimates: nowcasting euro area GDP growth using quantile regression**](https://ec.europa.eu/eurostat/documents/3888793/10879121/KS-TC-20-004-EN-N.pdf/9916fb06-56e5-bf81-56c7-8b7c8d1f7c2e), _Eurostat_ Statistical Working Paper S-TC-20-004-EN, doi: [10.2785/26603](http://dx.doi.org/10.2785/26603).
 
-* M.Sigmund and Ferstl R. (2019): **Panel Vector Autoregression in R with the package Panelvar**, _Quarterly Review of Economics and Finance_, doi: [10.2139/ssrn.2896087](http://dx.doi.org/10.2139/ssrn.2896087).
+* Sigmund M. and Ferstl R. (2019): **Panel Vector Autoregression in R with the package Panelvar**, _Quarterly Review of Economics and Finance_, doi: [10.2139/ssrn.2896087](http://dx.doi.org/10.2139/ssrn.2896087).
 
 * Mazzi G.L. and Ladiray D., eds. (2017): 
 *[**Handbook on Rapid Estimates**](http://ec.europa.eu/eurostat/documents/3859598/8555708/KS-GQ-17-008-EN-N.pdf), 
