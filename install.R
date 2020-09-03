@@ -1,0 +1,11 @@
+install.packages("forecast")
+install.packages("imputeTS")
+install.packages("panelvar")
+install.packages("lubridate")
+install.packages("vars")
+install.packages("moments")
+install.packages("zoo")
+
+# install.packages(c("tidyverse", "tidyr", "repr", "dplyr", "reshape2"), repos="https://cloud.r-project.org")
+# install.packages(c("ggplot2","plotly"),repos="https://cloud.r-project.org")
+# install.packages(c("timeSeries", "ggdemetra", "prophet"), repos="https://cloud.r-project.org")
