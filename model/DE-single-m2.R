@@ -90,8 +90,8 @@ for(jh in 1:NROW(hh))
     xg <- make.data.DWtoW(dm, XG)
     
     # if NAs use interpolation
-    xd <- apply(xd, 2, na.interpolation, option="linear")
-    xg <- apply(xg, 2, na.interpolation, option="linear")
+    xd <- apply(xd, 2, na_interpolation, option="linear")
+    xg <- apply(xg, 2, na_interpolation, option="linear")
 
     # Transform all variables
     xms <- transform.vars(xm, ZM$transf)
