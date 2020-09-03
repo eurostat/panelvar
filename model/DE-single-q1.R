@@ -99,9 +99,9 @@ for(jh in 1:NROW(hh))
     xg <- make.data.DWtoM(dm, as.matrix(XG))
 
     # if NAs use interpolation
-    xm <- apply(xm, 2, na.interpolation, option="linear")
-    xd <- apply(xd, 2, na.interpolation, option="linear")
-    xg <- apply(xg, 2, na.interpolation, option="linear")
+    xm <- apply(xm, 2, na_interpolation, option="linear")
+    xd <- apply(xd, 2, na_interpolation, option="linear")
+    xg <- apply(xg, 2, na_interpolation, option="linear")
 
     # Transform all variables
     xqs <- transform.vars(xq, ZQ$transf)
