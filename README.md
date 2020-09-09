@@ -49,9 +49,11 @@ Once the packages installed, you can run the `bash` scripts in the [**_bin/_**](
 
 * Sigmund M. and Ferstl R. (2019): **Panel Vector Autoregression in R with the package Panelvar**, _Quarterly Review of Economics and Finance_, doi: [10.2139/ssrn.2896087](http://dx.doi.org/10.2139/ssrn.2896087).
 
-* Mazzi G.L. and Ladiray D., eds. (2017): 
-*[**Handbook on Rapid Estimates**](http://ec.europa.eu/eurostat/documents/3859598/8555708/KS-GQ-17-008-EN-N.pdf), 
+* Mazzi G.L. and Ladiray D., eds. (2017): [**Handbook on Rapid Estimates**](http://ec.europa.eu/eurostat/documents/3859598/8555708/KS-GQ-17-008-EN-N.pdf), 
 _Publications Office of the European Union_, doi:[10.2785/4887400](http://dx.doi.org/10.2785/4887400).
+
+* Kapetanios G., Marcellino M. and Papailias F. (2017): 
+**Guidance and recommendations on the use of Big data for macroeconomic nowcasting**, in  [Handbook on Rapid Estimates](http://ec.europa.eu/eurostat/documents/3859598/8555708/KS-GQ-17-008-EN-N.pdf), Chapter 17, _Publications Office of the European Union_, doi:[10.2785/4887400](http://dx.doi.org/10.2785/4887400).  
 
 * Dees S. and Gunter J. (2014): [**Analysing and forecasting price dynamics across Euro area countries and sectors - A panel var approach**](https://www.ecb.europa.eu/pub/pdf/scpwps/ecbwp1724.pdf), _European Central Bank_ Working Paper QB-AR-14-098-EN, no. 1724.
 
