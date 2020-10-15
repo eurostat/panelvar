@@ -38,7 +38,7 @@ Once the packages installed, you can run the `bash` scripts in the [**_bin/_**](
 	and <a href="mailto:glmazzi@pt.lu">Mazzi G.L.</a></td> </tr> 
     <tr> <td align="left"><i>version</i></td> <td align="left">1.0</td> </tr> 
     <tr> <td align="left"><i>status</i></td> <td align="left">2020 &ndash; <b>closed</b></td> </tr> 
-    <tr> <td align="left"><i>license</i></td> <td align="left"><a href="https://joinup.ec.europa.eu/sites/default/files/eupl1.1.-licence-en_0.pdfEUPL">EUPL</a> <i>(cite the source code or the reference above!)</i></td> </tr> 
+    <tr> <td align="left"><i>license</i></td> <td align="left"><a href="https://joinup.ec.europa.eu/sites/default/files/eupl1.1.-licence-en_0.pdf">EUPL</a> <i>(cite the source code or the reference above!)</i></td> </tr> 
 </table>
 
 **<a name="References"></a>References** 
